@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Planificación sbd</h1>
+    
+    <div class="tabla">
+
+        <table>
+            <tr>
+                <td>RM acutal:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Objetivo:</td>
+                <td><input type="number" id="objetivo" onblur="calcular()"></td>
+            </tr>
+        </table>
+
+    </div>
+
+    <img src="gatoSBD.png" alt="Gato Powerlifter">
+
+    <div id="cargas">
+
+        <div class="tabla">
+            <h2>Fuerza</h2>
+
+            <table>
+                <tr>
+                    <td>Semana 1</td>
+                    <td class="porcentaje">75%</td>
+                </tr>
+                <tr>
+                    <td>5x5</td>
+                    <td class="peso"></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>Semana 2</td>
+                    <td class="porcentaje">80%</td>
+                </tr>
+                <tr>
+                    <td>4x4</td>
+                    <td class="peso"></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>Semana 3</td>
+                    <td class="porcentaje">85%</td>
+                </tr>
+                <tr>
+                    <td>3x3</td>
+                    <td class="peso"></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>Semana 4</td>
+                    <td class="porcentaje">90%</td>
+                </tr>
+                <tr>
+                    <td>2x2</td>
+                    <td class="peso"></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>Semana 5</td>
+                    <td class="porcentaje">65%</td>
+                </tr>
+                <tr>
+                    <td>5x4</td>
+                    <td class="peso"></td>
+                </tr>
+            </table>
+            <table class="rm">
+                <tr>
+                    <td>Semana 6</td>
+                    <td class="porcentaje">100%</td>
+                </tr>
+                <tr>
+                    <td>1x1</td>
+                    <td class="peso"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="tabla">
+            <h2>Fuerza</h2>
+
+            <table>
+                <tr>
+                    <td>Semana 1</td>
+                    <td class="porcentaje">60%</td>
+                </tr>
+                <tr>
+                    <td>3x12</td>
+                    <td class="peso"></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>Semana 2</td>
+                    <td class="porcentaje">65%</td>
+                </tr>
+                <tr>
+                    <td>4x10</td>
+                    <td class="peso"></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>Semana 3</td>
+                    <td class="porcentaje">70%</td>
+                </tr>
+                <tr>
+                    <td>3x8</td>
+                    <td class="peso"></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>Semana 4</td>
+                    <td class="porcentaje">70%</td>
+                </tr>
+                <tr>
+                    <td>4x8</td>
+                    <td class="peso"></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>Semana 5</td>
+                    <td class="porcentaje">60%</td>
+                </tr>
+                <tr>
+                    <td>2x10</td>
+                    <td class="peso"></td>
+                </tr>
+            </table>
+            <table class="rm">
+                <tr>
+                    <td>Semana 6</td>
+                    <td class="porcentaje">70%</td>
+                </tr>
+                <tr>
+                    <td>3x10</td>
+                    <td class="peso"></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

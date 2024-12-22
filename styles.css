@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+
+table{
+    border: 1;
+}
+
+table, th, td {
+    border: 2px solid rgb(128, 128, 128);
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: large;
+}
+
+table{
+    width: 90%;
+    margin: 5%;
+    background-color: rgb(40, 40, 40);
+    box-shadow: 5px 5px 5px black;
+    border-bottom-right-radius: 10px;
+}
+
+tr{
+    width: 50%;
+}
+
+img{
+    border-radius: 100px;
+    width: 50%;
+}
+
+
+#cargas {
+    display: flex; /* Cambiar a flex por defecto */
+    flex-direction: column; /* Las tablas estarán una encima de otra inicialmente */
+    gap: 20px; /* Espaciado entre tablas */
+}
+
+@media (min-width: 850px) {
+    #cargas {
+        display: grid; /* Cambiar a Grid en pantallas anchas */
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas iguales */
+        gap: 20px; /* Espaciado entre tablas */
+    }
+
+}
+
+input{
+    width: 50%;
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+.rm {
+    box-shadow: 5px 5px 5px rgb(99, 20, 20);
+}
+
+table:hover{
+    background-color: rgb(153, 45, 45);
+}
+
+img{
+    width: 20%;
+}
