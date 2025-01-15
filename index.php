@@ -1,3 +1,9 @@
+<?php
+
+    
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,14 +19,17 @@
     <div class="tabla">
 
         <table>
-            <tr>
-                <td>RM acutal:</td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td>Objetivo:</td>
-                <td><input type="number" id="objetivo" onblur="calcular()"></td>
-            </tr>
+            <form action="index.php" method="POST">
+                <tr>
+                    <td>RM acutal:</td>
+                    <td><input type="text" name="actual"></td>
+                </tr>
+                <tr>
+                    <td>Objetivo:</td>
+                    <td><input type="number" id="objetivo" name="objetivo"></td>
+                    <input type="submit" value="Calcular" onclick=calcular()>
+                </tr>
+            </form>
         </table>
 
     </div>
