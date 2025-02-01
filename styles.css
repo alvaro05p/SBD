@@ -62,6 +62,19 @@ table:hover{
     background-color: rgb(153, 45, 45);
 }
 
+#main-table:hover{
+    background-color: rgb(27, 27, 27);
+}
+
 img{
     width: 20%;
+}
+
+.calcular{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(198, 55, 55);
+    color: white;
+    border-radius: 10px;
+
 }
